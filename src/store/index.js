@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 let api = axios.create({
-    baseURL: 'http://keepr-rachel.herokuapp.com:3000/api/',
+    baseURL: 'https://keepr-rachel.herokuapp.com/api',
     timeout: 5000,
     withCredentials: true
 })
